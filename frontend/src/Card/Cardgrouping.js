@@ -6,7 +6,7 @@ import Row from "react-bootstrap/Row";
 
 export default function Cardgrouping() {
   return (
-    <Row xs={2} md={4} className="g-4">
+    <Row xs={1} md={2} className="g-5">
       {ProfileList.map((cardEx, key) => {
         return (
           <Col key={key}>

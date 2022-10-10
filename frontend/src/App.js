@@ -1,15 +1,20 @@
 import "./App.css";
-import Profile from "./components/Profile";
+import Header from "./components/Header";
 import CarouselEx from "./components/CarouselEx";
 import ModalEx from "./components/ModalEx";
 import Cardgrouping from "./Card/Cardgrouping";
+import Footer from "./components/Footer";
+import Pagination from "./components/Pagination";
+
 function App() {
   return (
     <div className="App">
-      <Profile />
+      <Header />
       <CarouselEx />
       <ModalEx />
       <Cardgrouping />
+      <Pagination />
+      <Footer />
     </div>
   );
 }

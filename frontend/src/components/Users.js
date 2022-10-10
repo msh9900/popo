@@ -14,8 +14,8 @@ function Users() {
   });
   return (
     <div>
-      {users.map((user) => (
-        <li> {user}</li>
+      {users.map((user, key) => (
+        <li key={key}> {user}</li>
       ))}
     </div>
   );
